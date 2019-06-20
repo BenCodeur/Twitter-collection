@@ -21,3 +21,5 @@ Open a CMD in the folder where you stored the script, then write the following c
 - python TwitterCollection.py
 
 All the tweets will be printed in the console. The code will also automatically generate a csv file "Twitter_Collection" to store all the tweets. This csv file will be in the folder from which you run the script.
+
+Currently, the script collects the last 100 tweets with the # specified, in English.
