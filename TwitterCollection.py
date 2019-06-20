@@ -11,7 +11,7 @@ access_token_secret = '2AY0AtaeuLMTvartFJg1uS7a2NKYM8vE7dPqaOODGsggE'
 #####Get tweets with a specific #
 def getHashtag():
     # Get the #
-    print('Which # are you looking for ?')
+    print('Which # are you looking for ? (order the # before your word)')
     hashtag = input()
     # Open/Create a csv file to append datas
     csvFile = open('Twitter_Collection.csv', 'a')
