@@ -10,7 +10,7 @@ def getHashtag():
     print('Which # are you looking for ?')
     hashtag = input()
     # Open/Create a csv file to append datas
-    csvFile = open('ua.csv', 'a')
+    csvFile = open('Twitter_Collection.csv', 'a')
     #Use csv Writer
     csvWriter = csv.writer(csvFile)
 
