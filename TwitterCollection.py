@@ -1,6 +1,5 @@
 import tweepy
 import csv
-import pandas as pd
 
 ####input your tokens here to access the twitter API
 consumer_key = '9Y5Tz5BiMz5Sy2VNmzeslFSbH'
